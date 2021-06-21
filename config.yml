@@ -1,0 +1,14 @@
+apiName: "WebEdu Urenregistratie API"
+logging:
+  level: INFO
+  loggers:
+    io.dropwizard: DEBUG
+
+assets:
+  mappings:
+    /assets: /
+  overrides:
+    /: ../ipsen3-client/dist/
+
+server:
+  rootPath: /api/*
